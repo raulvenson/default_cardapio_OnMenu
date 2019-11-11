@@ -1,7 +1,10 @@
 .App {
   text-align: center;
+  
 }
-
+body {
+  background: url("./assets/bg.png");
+}
 .App-logo {
   height: 40vmin;
 }
