@@ -17,7 +17,7 @@ import inicio from '../../assets/img_cardapio/inicio.png'
 import sobre from '../../assets/img_cardapio/sobre.png'
 import logotransp from '../../assets/img_cardapio/onmenutransp.png'
 
-import GeneralMexCardapio from '../../assets/img_cardapio/cardapio_general.png'
+import GeneralMexCardapio from '../../assets/img_cardapio/cardapio_generic.png'
 
 import Grid from '@material-ui/core/Grid';
 
@@ -97,7 +97,7 @@ export default function CustomizedExpansionPanels() {
       
       </div>
       <Grid container justify={"center"} className="footer">
-        <a href="https://api.whatsapp.com/send?phone=5565998023257&text=Ol%C3%A1,%20gostaria%20de%20fazer%20um%20pedido!" >
+        <a href="https://api.whatsapp.com/send?phone=5565999271048&text=Ol%C3%A1,%20gostaria%20de%20fazer%20um%20pedido!" >
           <img className="wpp" src={Whats_qld} alt="link para chat WhatsApp"/>
         </a> 
       </Grid>

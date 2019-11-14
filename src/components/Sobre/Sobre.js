@@ -9,7 +9,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 
 
-import Whats_qld from '../../assets/img_cardapio/whats_.png';
+// import Whats_qld from '../../assets/img_cardapio/whats_.png';
 
 
 import '../cardapio/TheDogFather.css'
@@ -112,11 +112,11 @@ export default function CustomizedExpansionPanels() {
           </ExpansionPanelDetails>            
         </ExpansionPanel>        
       </div>
-      <Grid container justify={"center"} className="footer">
+      {/* <Grid container justify={"center"} className="footer">
         <a href="https://api.whatsapp.com/send?phone=5565998023257&text=Ol%C3%A1,%20gostaria%20de%20fazer%20um%20pedido!" >
           <img className="wpp" src={Whats_qld} alt="link para chat WhatsApp" />
         </a> 
-      </Grid>
+      </Grid> */}
     
     </div>
   );
